@@ -16,7 +16,6 @@ filetypes := ["--standalone", "--onefile", "--module"]
 
 Gui Main: New, +LabelMain +hWndhWndMain
 Gui Font, s9, Segoe UI
-Gui Add, Button, hWndhBtnBrowse vBtnBrowse gBrowse x608 y288 w148 h23, Browse
 
 Gui Add, Edit, vMyText x24 y16 w749 h71 +Multi, Click browse to compile file
 
@@ -28,8 +27,9 @@ Gui Add, Link, x32 y328 w256 h30, <a href="https://nuitka.net/doc/user-manual.ht
 
 Gui Add, Link, x304 y328 w236 h30, <a href="">Install Nuitka</a>
 
-Gui Add, Button, hWndhBtnCompile2 vBtnCompile2 gCompile x608 y328 w149 h25, Compile
+Gui Add, Button, hWndhBtnCompile2 vBtnCompile2 gCompile x608 y228 w149 h25, Compile
 
+Gui Add, Button, hWndhBtnBrowse vBtnBrowse gBrowse x608 y198 w148 h23, Browse
 Gui Add, DropDownList, hWnddropdown vdropdown gdropdown x32 y128 w228, --standalone (exe)||--onefile (exe)|--module (pyc)
 
 Gui Add, Picture, x600 y112 w163 h141, C:\Users\dower\OneDrive\pywebview_jinja2\MOD_TEMPLATE\build\For_building\Nuitka_Launcher\icon\1.png
