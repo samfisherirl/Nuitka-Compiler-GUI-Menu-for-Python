@@ -1,7 +1,7 @@
 # Nuitka_Compiler_Gui
 Nuitka_Compiler_Gui for Python with AHK
 
-Update 
+Update 3/11/23 fixes, added drop down menu. 
 
 No-code compiler for python. 
 
