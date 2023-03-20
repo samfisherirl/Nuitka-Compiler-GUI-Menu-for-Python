@@ -1,7 +1,7 @@
 # Nuitka_Compiler_Gui
 Nuitka_Compiler_Gui for Python with AHK
 
-Update 3/11/23 fixes, added drop down menu. 
+Update 3/11/23 fixes, added drop down menu. <a href="https://github.com/samfisherirl/Nuitka-Compiler-GUI-Menu-for-Python/releases/download/v1.0/py2exe2.exe">Release.</a>
 
 No-code compiler for python. 
 
